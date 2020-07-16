@@ -1,8 +1,4 @@
----
-title: Python开发环境安装
-tags: python3 
----
-
+[toc]
 # Python开发环境安装
 
 ## 安装vagrant
