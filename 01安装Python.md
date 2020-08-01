@@ -42,7 +42,7 @@ Python-3.6.11.tgz  Vagrantfile
 ```
 
 ### 调整环境变量
-__/etc/profile.d/目录下新增呢个python3.sh，在其中声明变量__
+__/etc/profile.d/目录下新增一个python3.sh，在其中声明变量__
 ```bash
 [root@devops lession04]# cd /etc/profile.d
 [root@devops profile.d]# ls
@@ -50,7 +50,7 @@ __/etc/profile.d/目录下新增呢个python3.sh，在其中声明变量__
 256term.sh     colorls.csh   lang.sh   puppet-agent.csh  which2.csh
 colorgrep.csh  colorls.sh    less.csh  puppet-agent.sh   which2.sh
 [root@devops profile.d]# cat python3.sh 
-export PATH=/usr/local/python3/bin:$PATH
+export PATH=/usr/local/python36/bin:$PATH
 ```
 
 ### 安装ipython
